@@ -7,6 +7,8 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('favorites');
+  this.route('market');
 });
 
 export default Router;
